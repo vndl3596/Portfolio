@@ -857,7 +857,7 @@ html, body {
 .section-skills h2 {
   position: relative;
   padding-bottom: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   font-size: 18px;
   color: #000;
   text-transform: uppercase;
@@ -869,7 +869,7 @@ html, body {
   position: absolute;
   bottom: 0;
   display: block;
-  width: 50px;
+  width: 60px;
   height: 1px;
   background-color: #000;
 }
