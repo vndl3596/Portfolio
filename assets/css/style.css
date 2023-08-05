@@ -995,8 +995,8 @@ html, body {
 .progress-bar span {
   width: 40px !important;
   position: absolute;
-  top: -30px;
-  right: -7px;
+  top: 10px;
+  right: -10px;
   color: #000;
   z-index: 3;
 }

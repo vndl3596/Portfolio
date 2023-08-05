@@ -238,6 +238,22 @@
                             </div><!-- /.progress -->
                         </div><!-- /.progress-group -->
 
+                        <div class="progress-group">
+                            <p><img class="skill-icon" src="assets/img/cs.png">C#</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="60">
+                                </div>
+                            </div><!-- /.progress -->
+                        </div><!-- /.progress-group -->
+
+                        
+                        <div class="progress-group">
+                            <p><img class="skill-icon" src="assets/img/aspdotnet.png">ASP .NET Framework</p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="60">
+                                </div>
+                            </div><!-- /.progress -->
+                        </div><!-- /.progress-group -->
 
                         <div class="progress-group">
                             <p><img class="skill-icon" src="assets/img/html.png">HTML & <img class="skill-icon" src="assets/img/css.png">Css & <img class="skill-icon" src="assets/img/javascript.png">JavaScript</p>
@@ -908,7 +924,7 @@
 
     <script>
         var type = new Typed(".auto-input", {
-            strings: ["Web Developer", "Java Back-end Engineer"],
+            strings: ["Web Developer", "Back-End Engineer"],
             typeSpeed: 80,
             backSpeed: 80,
             loop: true
@@ -975,19 +991,19 @@
     </script>
     <script>
         function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
+            var reveals = document.querySelectorAll(".reveal");
 
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 0;
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 0;
 
-            if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-            } else {
-            reveals[i].classList.remove("active");
+                if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+                } else {
+                reveals[i].classList.remove("active");
+                }
             }
-        }
         }
 
         window.addEventListener("scroll", reveal);
