@@ -93,7 +93,7 @@ html, body {
  * Background colors 
  */
 .blue-bg {
-  background-color: #196fc2;
+  background-color: #3a8def;
 }
 
 /* 
@@ -101,13 +101,13 @@ html, body {
  */
 .btn {
   font-family: "Varela", sans-serif;
-  background-color: #196fc2;
+  background-color: #3a8def;
   padding: 0 15px;
   color: #ffffff;
   height: 44px;
   line-height: 42px;
   border-radius: 0;
-  border: 1px solid #196fc2;
+  border: 1px solid #3a8def;
   text-transform: uppercase;
 }
 
@@ -127,8 +127,8 @@ html, body {
 .btn-inverted:hover,
 .btn-inverted:focus {
   color: #ffffff;
-  background-color: #196fc2;
-  border-color: #196fc2;
+  background-color: #3a8def;
+  border-color: #3a8def;
 }
 
 /* 
@@ -367,7 +367,7 @@ html, body {
 
 /* Navigation */
 .site-navigation {
-  background-color: #196fc2;
+  background-color: #3a8def;
 }
 
 .site-navigation.affix {
@@ -376,6 +376,7 @@ html, body {
   right: 0;
   width: 100%;
   z-index: 1005;
+  box-shadow: 0px 0px 15px 0.1px;  ;
 }
 
 .site-navigation .navbar-nav {
@@ -668,7 +669,7 @@ html, body {
   font-family: "Varela", sans-serif;
   margin: 0;
   font-size: 32px;
-  color: #196fc2;
+  color: #3a8def;
   text-align: center;
   text-transform: uppercase;
 }
@@ -962,7 +963,7 @@ html, body {
 
 .progress-bar {
   position: relative;
-  background-color: #196fc2;
+  background-color: #3a8def;
   height: 10px;
 }
 
@@ -975,7 +976,7 @@ html, body {
   height: 0;
   border-style: solid;
   border-width: 0 15px 20px 15px;
-  border-color: transparent transparent #196fc2 transparent;
+  border-color: transparent transparent #3a8def transparent;
   z-index: 2;
 }
 
@@ -1089,14 +1090,14 @@ html, body {
   width: 100%;
   margin: 70px 0 0;
   bottom: 0;
-  left: 0;
+  left: 30%;
   border-bottom: 0;
 }
 
 .section-services .nav-tabs .col-sm-fifth {
   height: 160px;
   background: #ffffff;
-  border-bottom: 3px solid #196fc2;
+  border-bottom: 3px solid #3a8def;
 }
 
 .section-services .carousel-inner {
@@ -1145,8 +1146,8 @@ html, body {
 }
 
 .section-services .item-controls .carousel-control:hover, .section-services .item-controls .carousel-control:focus {
-  background-color: #196fc2;
-  border-color: #196fc2;
+  background-color: #3a8def;
+  border-color: #3a8def;
 }
 
 .section-services .item-controls .carousel-control:hover i, .section-services .item-controls .carousel-control:focus i {
@@ -1214,7 +1215,7 @@ html, body {
 
 .carousel-indicators .active .col-sm-fifth,
 .carousel-indicators a:hover .col-sm-fifth {
-  background-color: #196fc2;
+  background-color: #3a8def;
 }
 
 .carousel-indicators .active .service p,
@@ -1237,7 +1238,7 @@ html, body {
 }
 
 .carousel-indicators .active .service .rectangle {
-  color: #196fc2;
+  color: #3a8def;
 }
 
 .carousel-indicators .active .service:after {
@@ -1251,7 +1252,7 @@ html, body {
   height: 0;
   border-style: solid;
   border-width: 15px 15px 0 15px;
-  border-color: #196fc2 transparent transparent transparent;
+  border-color: #3a8def transparent transparent transparent;
   z-index: 99;
 }
 
@@ -1349,7 +1350,7 @@ html, body {
 
 .review-carousel .slick.rectangle:hover {
   background-color: #ffffff;
-  color: #196fc2;
+  color: #3a8def;
 }
 
 .review-carousel .slick.rectangle.slick-next {
@@ -1370,8 +1371,8 @@ html, body {
 }
 
 .review .img-res {
-  max-width: 150%;
-  max-height: 150%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .review p {
@@ -1525,7 +1526,7 @@ html, body {
 .team-member .team-member-back {
   padding: 0 20px;
   display: table;
-  background: #196fc2;
+  background: #3a8def;
   text-align: center;
   color: #ffffff;
   transform: rotateY(-180deg);
@@ -1603,7 +1604,7 @@ html, body {
 }
 
 .section-history .section-diff-title h2 {
-  color: #196fc2;
+  color: #3a8def;
 }
 
 .section-history .section-diff-title p {
@@ -1705,7 +1706,7 @@ html, body {
 
 .timeline > li > .timeline-panel .timeline-heading .timeline-date {
   padding: 0 10px;
-  background-color: #196fc2;
+  background-color: #3a8def;
 }
 
 .timeline > li > .timeline-panel .timeline-heading .timeline-position {
@@ -1852,7 +1853,7 @@ html, body {
   margin: 0;
   border-top: 1px solid #f6f6f6;
   border-right: 1px solid #f6f6f6;
-  border-bottom: 2px solid #196fc2;
+  border-bottom: 2px solid #3a8def;
   height: 47px;
 }
 
@@ -1873,13 +1874,13 @@ html, body {
 }
 
 .portfolio-sorting li a:hover, .portfolio-sorting li a.active {
-  background-color: #196fc2;
+  background-color: #3a8def;
   color: #ffffff;
-  border-color: #196fc2;
+  border-color: #3a8def;
 }
 
 .portfolio-sorting li a:hover:after, .portfolio-sorting li a.active:after {
-  border-color: #196fc2;
+  border-color: #3a8def;
 }
 
 .portfolio-sorting li a:after, .portfolio-sorting li a.acitve:after {
@@ -1907,7 +1908,7 @@ html, body {
   height: 0;
   border-style: solid;
   border-width: 10px 10px 0 10px;
-  border-color: #196fc2 transparent transparent transparent;
+  border-color: #3a8def transparent transparent transparent;
   z-index: 99;
 }
 
@@ -1938,7 +1939,7 @@ html, body {
 
 .portfolio-item .portfolio-item-thumb:after {
   content: '';
-  background-color: #196fc2;
+  background-color: #3a8def;
   position: absolute;
   left: 0;
   right: 0;
@@ -2023,8 +2024,8 @@ html, body {
 }
 
 .portfolio-item:hover .portfolio-item-thumb .rectangle:hover {
-  background-color: #196fc2;
-  border-color: #196fc2;
+  background-color: #3a8def;
+  border-color: #3a8def;
   color: #ffffff;
 }
 
@@ -2096,6 +2097,7 @@ html, body {
   position: relative;
   margin: 10px 0 0;
   color: #ffffff;
+  font-family: -webkit-body;
 }
 
 .section-background .btn {
@@ -2111,10 +2113,11 @@ html, body {
 .section-quote p {
   margin-top: 0;
   font-size: 36px;
+  font-family: -webkit-body;
 }
 
 .section-quote p span {
-  color: #196fc2;
+  color: #3a8def;
 }
 
 /* Sections background: Me */
@@ -2234,7 +2237,7 @@ html, body {
 
 .section-contact .btn:hover {
   color: #ffffff;
-  border-color: #196fc2;
+  border-color: #3a8def;
 }
 
 .form-control {
@@ -2247,7 +2250,7 @@ html, body {
 
 .form-control:focus {
   box-shadow: none;
-  border-bottom-color: #196fc2;
+  border-bottom-color: #3a8def;
 }
 
 textarea.form-control {
@@ -2288,7 +2291,7 @@ textarea.form-control {
 
 .section-networks a:hover, .section-networks a:focus {
   background-color: #ffffff;
-  color: #196fc2;
+  color: #3a8def;
 }
 
 /* FOOTER
@@ -2319,7 +2322,7 @@ textarea.form-control {
 }
 
 .site-footer ul a:hover {
-  color: #196fc2;
+  color: #3a8def;
 }
 
 .site-footer a {
@@ -2329,7 +2332,7 @@ textarea.form-control {
 }
 
 .site-footer a:hover {
-  color: #196fc2;
+  color: #3a8def;
 }
 
 .site-footer .rectangle {
@@ -2347,7 +2350,7 @@ textarea.form-control {
 }
 
 .site-footer .rectangle:hover {
-  background-color: #196fc2;
+  background-color: #3a8def;
   color: #ffffff;
 }
 
@@ -2404,7 +2407,7 @@ textarea.form-control {
   top: -20px;
   height: 40px;
   width: 40px;
-  background-color: #196fc2;
+  background-color: #3a8def;
   color: #ffffff;
   box-shadow: none;
   border: 0;
@@ -2413,8 +2416,8 @@ textarea.form-control {
 
 .modal-header .rectangle:hover {
   background-color: #ffffff;
-  color: #196fc2;
-  border-color: #196fc2;
+  color: #3a8def;
+  border-color: #3a8def;
 }
 
 .modal-header,
@@ -2428,8 +2431,8 @@ textarea.form-control {
 
 .modal-footer .btn:hover {
   background-color: #ffffff;
-  color: #196fc2;
-  border-color: #196fc2;
+  color: #3a8def;
+  border-color: #3a8def;
 }
 
 .modal-content {
